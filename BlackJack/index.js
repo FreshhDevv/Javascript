@@ -11,18 +11,18 @@ let cardsEl = document.getElementById("cards-el")
 
 function startGame() {
 
-    cardsEl.textContent += " " + firstCard + " " + secondCard;
+    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
     if(sum <= 20) {
         message = "Do you want to draw a new card?"
-        sumEl.textContent += " "+ sum
+        sumEl.textContent = "Sum: " + sum
     } else if(sum === 21) {
         message = "You've got Blackjack!"
         hasBlackJack = true
-        sumEl.textContent += " " + sum;
+        sumEl.textContent = "Sum: " + sum;
     } else {
         isAlive = false
         message = "You're out of the game!"
-        sumEl.textContent += " " + sum;
+        sumEl.textContent = "Sum: " + sum;
     }
     messageEl.textContent = message
 }
@@ -32,6 +32,5 @@ function newCard() {
     let thirdCard = 5
     sum += thirdCard
     startGame()
-    console.log(sum)
 }
 
