@@ -1,7 +1,8 @@
 let firstCard = 11;
 let secondCard = 10;
-let sum = firstCard + secondCard;
+let sum = firstCard + secondCard + 4;
 let hasBlackJack = false
+let isAlive = true
 
 
 if(sum <= 20) {
@@ -10,7 +11,8 @@ if(sum <= 20) {
     console.log("Wohoo! You've got Blackjack!")
     hasBlackJack = true
 } else {
+    isAlive = false
     console.log("You're out of the game")
 }
 
-console.log(hasBlackJack)
+console.log(isAlive)
