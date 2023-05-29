@@ -1,7 +1,13 @@
 // document.getElementById("count_el").innerText = 5
 
-let count = 0;
-console.log(count)
+// let firstBatch = 5;
+// let secondBatch = 7
+// let count = firstBatch + secondBatch;
+// console.log(count);
+
 
 let myAge = 23;
-console.log(myAge);
+let humanDogRatio = 7;
+let myDogAge = myAge * humanDogRatio;
+console.log(myDogAge);
+  
