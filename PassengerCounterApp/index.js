@@ -1,12 +1,15 @@
-// let count = 0
-// let countEl = document.getElementById("count_el")
-// function addCount() {
-//     count = count + 1
-//     countEl.innerText = count
-// }
+let saveEl = document.getElementById("save-el")
+let count = 0
+let countEl = document.getElementById("count_el")
+function addCount() {
+    count += 1
+    countEl.textContent = count
+}
 
-let welcomeEl = document.getElementById("welcome-el")
-let name = "Billy"
-let greeting = "Welcome back "
+function save() {
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+    console.log(saveEl.innerText + count)
+}
 
-welcomeEl.innerText = greeting + name
+
