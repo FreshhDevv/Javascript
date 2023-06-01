@@ -9,9 +9,14 @@
 //     console.log(count)
 // }
 
-let username = "per"
+// let username = "per"
 
-let message = "You have three new notifications"
+// let message = "You have three new notifications"
 
-let messageUser = message + " " + username
-console.log(messageUser)
+// let messageUser = message + " " + username
+// console.log(messageUser)
+
+let name = "Billy"
+let greeting = "Hi, my name is "
+let myGreeting = greeting + name
+console.log(myGreeting)
