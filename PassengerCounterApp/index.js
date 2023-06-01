@@ -1,6 +1,6 @@
 let count = 0
+let countEl = document.getElementById("count_el")
 function addCount() {
     count = count + 1
-    console.log(count)
-    document.getElementById("count_el").innerText = count
+    countEl.innerText = count
 }
