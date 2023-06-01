@@ -23,3 +23,30 @@ function countdown() {
 }
 
 countdown()
+
+function number() {
+    console.log(42)
+}
+
+number()
+
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
+function sum() {
+    let add = lap1 + lap2 + lap3
+    console.log(add)
+}
+
+sum()
+
+let lapsCompleted = 0
+
+function lapIncrement() {
+    lapsCompleted = lapsCompleted + 1
+}
+lapIncrement()
+lapIncrement()
+lapIncrement()
+
+console.log(lapsCompleted)
