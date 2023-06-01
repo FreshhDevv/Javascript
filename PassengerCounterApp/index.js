@@ -5,25 +5,8 @@
 //     countEl.innerText = count
 // }
 
-// function save() {
-//     console.log(count)
-// }
+let welcomeEl = document.getElementById("welcome-el")
+let name = "Billy"
+let greeting = "Welcome back "
 
-// let username = "per"
-
-// let message = "You have three new notifications"
-
-// let messageUser = message + " " + username
-// console.log(messageUser)
-
-// let name = 42
-// let greeting = "Hi, my name is "
-// let myGreeting = greeting + name
-// console.log(myGreeting)
-
-let points = 4
-let bonusPoints = "10"
-
-let totalPoints = points + bonusPoints
-
-console.log(totalPoints)
+welcomeEl.innerText = greeting + name
