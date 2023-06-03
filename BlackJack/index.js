@@ -12,9 +12,18 @@
 //     console.log("You're out of the game")
 // }
 
-let age = 12
-if(age < 21) {
-    console.log("You cannot enter the club")
-} else{
-    console.log("Welcome!")
+// let age = 12
+// if(age < 21) {
+//     console.log("You cannot enter the club")
+// } else{
+//     console.log("Welcome!")
+// }
+
+let age = 110
+if (age <= 99) {
+    console.log("Not eligible")
+} else if(age === 100) {
+    console.log("Here is your birthday card from the king!")
+} else {
+    console.log("Not eligible, you have already gotten one")
 }
