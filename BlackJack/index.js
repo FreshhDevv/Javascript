@@ -55,3 +55,7 @@ let skills = [
     "mysql",
     "docker"
 ]
+
+console.log(skills[1])
+console.log(skills[3])
+console.log(skills[5])
