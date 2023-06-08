@@ -46,16 +46,8 @@ let featuredPosts = [
     "I've just relaunched my portfolio"
 ]
 
-let skills = [
-    "html",
-    "css",
-    "js",
-    "php",
-    "laravel",
-    "mysql",
-    "docker"
+let description = [
+    "weno",
+    23,
+    false
 ]
-
-console.log(skills[1])
-console.log(skills[3])
-console.log(skills[5])
