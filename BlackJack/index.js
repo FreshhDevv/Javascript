@@ -40,14 +40,17 @@
 
 //Arrays - ordered lists of items
 
-let featuredPosts = [
-    "Check out my Netflix clone",
-    "Here's the code for my project",
-    "I've just relaunched my portfolio"
+let cards = [7, 4]
+
+cards.push(8)
+console.log(cards)
+
+let messages = [
+    "Hey, how's it going?",
+    "I'm great, thank you! How about you?",
+    "All good. Been working on my portfolio lately."
 ]
 
-let description = [
-    "weno",
-    23,
-    false
-]
+let newMessage = "Same here!"
+messages.push(newMessage)
+console.log(messages)
