@@ -39,6 +39,11 @@
 // }
 
 
+
+
+
+
+
 // for (let count = 10; count < 21; count += 1) {
 //     console.log(count)
 // }
@@ -60,7 +65,15 @@
 //     console.log(messages[i])
 // }
 
-let cards = [7, 3, 9]
-for (let i = 0; i < cards.length; i++) {
-    console.log(cards[i])
+// let cards = [7, 3, 9]
+// for (let i = 0; i < cards.length; i++) {
+//     console.log(cards[i])
+// }
+
+let sentence = ["Hello", "my", "name", "is", "Hans"]
+let greetingEl = document.getElementById("greeting-el")
+
+for(let i = 0; i < sentence.length; i++) {
+    console.log(sentence[i])
+    greetingEl.textContent += sentence[i] + " "
 }
