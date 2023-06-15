@@ -66,14 +66,28 @@
 // 	}
 // }
 
-let person = {
-    name: "Hans",
-    age: 23,
-    country: "Cameroon"
-}
+// let person = {
+//     name: "Hans",
+//     age: 23,
+//     country: "Cameroon"
+// }
 
-function logData() {
-    console.log(person.name + " is " + person.age + " years old and lives in " + person.country)
-}
+// function logData() {
+//     console.log(person.name + " is " + person.age + " years old and lives in " + person.country)
+// }
 
-logData()
+// logData()
+
+let age = 67
+
+if(age < 6){
+    console.log("free")
+} else if(age >= 6 && age <= 17){
+    console.log("Child discount")
+} else if(age >= 18 && age <= 26){
+    console.log("student discount")
+} else if(age >= 27 && age <= 66){
+    console.log("Full price")
+} else {
+    console.log("senior citizen")
+}
