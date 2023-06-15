@@ -107,9 +107,19 @@
 
 // console.log("- " + largeCountries);
 
-let dayOfMonth = 13
-let weekday = "Friday"
+// let dayOfMonth = 13
+// let weekday = "Friday"
 
-if(dayOfMonth === 13 && weekday === "Friday") {
-    console.log("Spooky face")
+// if(dayOfMonth === 13 && weekday === "Friday") {
+//     console.log("Spooky face")
+// }
+
+let hands = ["rock", "paper", "scissor"]
+
+function random()
+{
+    let randomNumber = Math.floor(Math.random() * hands.length)
+    console.log(hands[randomNumber])
 }
+
+random()
