@@ -78,16 +78,23 @@
 
 // logData()
 
-let age = 67
+// let age = 67
 
-if(age < 6){
-    console.log("free")
-} else if(age < 18){
-    console.log("Child discount")
-} else if(age < 27){
-    console.log("student discount")
-} else if(age < 67){
-    console.log("Full price")
-} else {
-    console.log("senior citizen")
+// if(age < 6){
+//     console.log("free")
+// } else if(age < 18){
+//     console.log("Child discount")
+// } else if(age < 27){
+//     console.log("student discount")
+// } else if(age < 67){
+//     console.log("Full price")
+// } else {
+//     console.log("senior citizen")
+// }
+
+let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
+
+console.log("The 5 largest countries in the world")
+for(let i = 0; i < largeCountries.length; i++) {
+    console.log("- " + largeCountries[i])
 }
