@@ -99,10 +99,17 @@
 //     console.log("- " + largeCountries[i])
 // }
 
-let largeCountries = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"]
-largeCountries.pop()
-largeCountries.push("Pakistan")
-largeCountries.shift()
-largeCountries.unshift("China")
+// let largeCountries = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"]
+// largeCountries.pop()
+// largeCountries.push("Pakistan")
+// largeCountries.shift()
+// largeCountries.unshift("China")
 
-console.log("- " + largeCountries);
+// console.log("- " + largeCountries);
+
+let dayOfMonth = 13
+let weekday = "Friday"
+
+if(dayOfMonth === 13 && weekday === "Friday") {
+    console.log("Spooky face")
+}
