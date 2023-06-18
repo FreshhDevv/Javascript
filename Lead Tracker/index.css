@@ -9,6 +9,9 @@ input {
 	padding-left: 10px;
 	padding-right: 10px;
 	box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #5f9341;
 }
 
 button {
